@@ -28,4 +28,4 @@ async def on_message(message):
             print(f"DM from {message.author.name} sent successfully.")
         else:
             print(f"Failed to send DM: {response.status_code}")
-bot.run(os.getenv(TOKEN))
+bot.run(os.getenv("TOKEN"))
